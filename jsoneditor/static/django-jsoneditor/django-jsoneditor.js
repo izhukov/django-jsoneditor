@@ -25,6 +25,7 @@ django.jQuery(function() {
                     change:function() {
                         f.value = JSON.stringify(editor.get());
                     },
+                    modes: ['tree', 'code'],
                 },value);
             }($f[0],$nxt[0],value);
         }
